@@ -12,3 +12,6 @@ Currently [following](https://www.simplethread.com/how-to-create-a-new-rails-7-a
 - Rebuild of system.
 - Update gems.
 - Add a temporary homepage to `Public#index`.
+- Add guard
+  - added ffi gem as guard depends on this
+  - added guard-bundle
