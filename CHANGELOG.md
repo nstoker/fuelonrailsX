@@ -9,6 +9,6 @@ Currently [following](https://www.simplethread.com/how-to-create-a-new-rails-7-a
 
 ## [Unreleased]
 
-- Rebuild of system
-- Update gems
-
+- Rebuild of system.
+- Update gems.
+- Add a temporary homepage to `Public#index`.
