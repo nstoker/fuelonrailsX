@@ -109,6 +109,12 @@ GEM
       guard (~> 2.2)
       guard-compat (~> 1.1)
     guard-compat (1.2.1)
+    guard-minitest (2.4.6)
+      guard-compat (~> 1.2)
+      minitest (>= 3.0)
+    guard-rails (0.8.1)
+      guard (~> 2.11)
+      guard-compat (~> 1.0)
     guard-rubocop (1.5.0)
       guard (~> 2.0)
       rubocop (< 2.0)
@@ -276,6 +282,8 @@ DEPENDENCIES
   ffi
   guard
   guard-bundler
+  guard-minitest
+  guard-rails
   guard-rubocop
   importmap-rails
   jbuilder
