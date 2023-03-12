@@ -1,4 +1,5 @@
 # frozen_string_literal: true
+
 # A sample Guardfile
 # More info at https://github.com/guard/guard#readme
 
@@ -26,4 +27,9 @@ guard :bundler do
 
   # Assume files are symlinked from somewhere
   files.each { |file| watch(helper.real_path(file)) }
+end
+
+guard :rubocop do
+  watch(/.+\.rb$/)
+  watch(%r{(?:.+/)?\.rubocop(?:_todo)?\.yml$}) { |m| File.dirname(m[0]) }
 end
