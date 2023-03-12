@@ -36,6 +36,8 @@ group :development, :test do
   gem 'dotenv'
   gem 'guard'
   gem 'guard-bundler', require: false
+  gem 'guard-rubocop'
+  gem 'rubocop-rails', require: false
 end
 
 group :development do
