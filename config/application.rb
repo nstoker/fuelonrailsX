@@ -8,6 +8,8 @@ require 'rails/all'
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
 
+APP_VERSION = '0.0' unless defined? APP_VERSION
+
 module Fuelonrails
   # The whole app lives in here
   class Application < Rails::Application
