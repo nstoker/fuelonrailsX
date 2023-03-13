@@ -19,3 +19,4 @@ Currently [following](https://www.simplethread.com/how-to-create-a-new-rails-7-a
   - applied rubocop recommendations
   - added guard-minitest
   - added guard-rails
+  - added simplecov
