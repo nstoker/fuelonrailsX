@@ -3,3 +3,8 @@ require:
 
 AllCops:
   NewCops: enable
+  Exclude:
+    - 'db/migrate/*.rb'
+    - 'db/schema.rb'
+    - 'bin/**'
+    - Guardfile

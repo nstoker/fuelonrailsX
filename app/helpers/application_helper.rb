@@ -1,5 +1,5 @@
 # frozen_string_literal: true
 
-# Application wide helpers
+# .nodoc
 module ApplicationHelper
 end
