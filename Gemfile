@@ -14,7 +14,7 @@ gem 'bootsnap', require: false
 gem 'importmap-rails', '>= 1.1.6'
 gem 'jbuilder'
 gem 'pg', '~> 1.1'
-gem 'puma', '~> 5.0'
+gem 'puma', '~> 5.6'
 gem 'sprockets-rails'
 gem 'stimulus-rails', '>= 1.2.2'
 gem 'turbo-rails'
