@@ -6,7 +6,7 @@ git_source(:github) { |_repo| "https://github.com/#{repo}.git" }
 ruby '3.2.2'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
-gem 'rails', '~> 7.0.7'
+gem 'rails', '~> 7.0.8'
 
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem 'bcrypt', '~> 3.1.7'
@@ -48,8 +48,8 @@ group :development do
   gem 'guard-rails', require: false
   gem 'guard-rspec', require: false
   gem 'guard-rubocop', require: false
-  gem 'rubocop-rails', '>= 2.19.0', require: false
-  gem 'web-console' # Use console on exceptions pages [https://github.com/rails/web-console]
+  gem 'rubocop-rails', '>= 2.21.0', require: false
+  gem 'web-console' , '>= 4.2.1' # Use console on exceptions pages [https://github.com/rails/web-console]
 
   # Add speed badges [https://github.com/MiniProfiler/rack-mini-profiler]
   # gem 'rack-mini-profiler'
