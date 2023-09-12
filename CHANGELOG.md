@@ -9,6 +9,8 @@ Currently [following](https://www.simplethread.com/how-to-create-a-new-rails-7-a
 
 ## [Unreleased]
 
+- Snyk update for [SNYK-RUBY-RACK-1061917](https://snyk.io/vuln/SNYK-RUBY-RACK-1061917)
+
 ## v0.1 2023/03/30
 
 - Rebuild of system using Ruby 3.2.2
