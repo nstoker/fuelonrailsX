@@ -49,7 +49,7 @@ group :development do
   gem 'guard-rspec', require: false
   gem 'guard-rubocop', require: false
   gem 'rubocop-rails', '>= 2.21.0', require: false
-  gem 'web-console' , '>= 4.2.1' # Use console on exceptions pages [https://github.com/rails/web-console]
+  gem 'web-console', '>= 4.2.1' # Use console on exceptions pages [https://github.com/rails/web-console]
 
   # Add speed badges [https://github.com/MiniProfiler/rack-mini-profiler]
   # gem 'rack-mini-profiler'
