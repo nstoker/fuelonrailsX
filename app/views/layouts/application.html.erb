@@ -12,7 +12,7 @@
   </head>
 
   <body>
-    <header class="flex flex-col">
+    <header class="flex flex-col items-stretch">
       <%= render partial: 'shared/navbar' %>
     </header>
     <main class="flex-grow bg-teal-50 ">
@@ -20,11 +20,7 @@
         <%= yield %>
       </div>
     </main>
-    <footer class="fixed bottom-0">
-      <div>
         <%= render partial: 'shared/footer' %>
-      </div>
-    </footer>
   </body>
 </html>
 
