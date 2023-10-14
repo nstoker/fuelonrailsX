@@ -17,6 +17,7 @@ gem 'pg', '~> 1.1'
 gem 'puma', '~> 5.6'
 gem 'sprockets-rails'
 gem 'stimulus-rails', '>= 1.2.2'
+gem 'tailwindcss-rails'
 gem 'turbo-rails'
 
 # Use Redis adapter to run Action Cable in production
@@ -43,8 +44,10 @@ end
 
 group :development do
   # Use console on exceptions pages [https://github.com/rails/web-console]
+  gem 'foreman', require: false
   gem 'guard'
   gem 'guard-bundler', require: false
+  gem 'guard-foreman', require: false
   gem 'guard-rails', require: false
   gem 'guard-rspec', require: false
   gem 'guard-rubocop', require: false
