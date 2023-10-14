@@ -15,6 +15,10 @@ TODO:
 - have a look at this [crazy dude](https://blog.corsego.com/tailwindcss-dropdown)
 - bump version
 
+## v0.1.1 2023/10/14
+
+- Footer showing in three columns
+
 ## v0.1 2023/03/30
 
 - Rebuild of system using Ruby 3.2.2
