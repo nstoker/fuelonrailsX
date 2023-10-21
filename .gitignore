@@ -33,3 +33,6 @@ coverage/
 
 /app/assets/builds/*
 !/app/assets/builds/.keep
+
+# Don't keep old style environment files
+.env
