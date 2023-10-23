@@ -14,7 +14,14 @@ TODO:
 - have a look at this [crazy dude](https://blog.corsego.com/tailwindcss-dropdown)
 - bump version
 
-- configure devise
+- Configured Devise following Digital Ocean's [tutorial](https://www.digitalocean.com/community/tutorials/how-to-set-up-user-authentication-with-devise-in-a-rails-7-application#step-3-installing-and-configuring-devise)
+- Added seed for admin user
+- Using credentials
+
+- TODO:
+  - Add login/out to header line
+  - Devise login etc on header
+  - Sort out rails g devise views
 
 ## v0.1.1 2023/10/14
 
