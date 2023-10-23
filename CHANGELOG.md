@@ -11,9 +11,10 @@ Currently [following](https://www.simplethread.com/how-to-create-a-new-rails-7-a
 
 TODO:
 
-- configure devise
 - have a look at this [crazy dude](https://blog.corsego.com/tailwindcss-dropdown)
 - bump version
+
+- configure devise
 
 ## v0.1.1 2023/10/14
 
