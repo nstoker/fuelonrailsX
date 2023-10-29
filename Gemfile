@@ -6,19 +6,19 @@ git_source(:github) { |_repo| "https://github.com/#{repo}.git" }
 ruby '3.2.2'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
-gem 'rails', '~> 7.0.8'
+gem 'rails', '~> 7.1.0'
 
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem 'bcrypt', '~> 3.1.7'
 gem 'bootsnap', require: false
 gem 'devise', '~> 4.9', '>= 4.9.3'
-gem 'importmap-rails', '>= 1.1.6'
+gem 'importmap-rails', '>= 1.2.2'
 gem 'jbuilder'
 gem 'pg', '~> 1.1'
 gem 'puma', '~> 5.6'
 gem 'sprockets-rails'
 gem 'stimulus-rails', '>= 1.2.2'
-gem 'tailwindcss-rails'
+gem 'tailwindcss-rails', '>= 2.0.31'
 gem 'turbo-rails'
 
 # Use Redis adapter to run Action Cable in production
@@ -52,7 +52,7 @@ group :development do
   gem 'guard-rails', require: false
   gem 'guard-rspec', require: false
   gem 'guard-rubocop', require: false
-  gem 'rubocop-rails', '>= 2.21.0', require: false
+  gem 'rubocop-rails', '>= 2.22.0', require: false
   gem 'web-console', '>= 4.2.1' # Use console on exceptions pages [https://github.com/rails/web-console]
 
   # Add speed badges [https://github.com/MiniProfiler/rack-mini-profiler]
