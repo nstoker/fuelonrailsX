@@ -18,8 +18,13 @@ TODO:
 - Added seed for admin user
 - Using credentials
 
+- Working on menu bar
+  - Not seeing dropdown (is it a stimulus thing?)
+  - Want the user face things!
+  - User's name
 - TODO:
   - Add login/out to header line
+    - using https://flowbite.com/docs/components/navbar/
   - Devise login etc on header
   - Sort out rails g devise views
 
