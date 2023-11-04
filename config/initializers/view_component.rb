@@ -13,6 +13,6 @@ ActiveSupport.on_load(:view_component) do
   # Make it possible to store previews in sidecar folders
   # See https://github.com/palkan/view_component-contrib#organizing-components-or-sidecar-pattern-extended
 
-  ViewComponent::Preview.extend ViewComponentContrib::Preview::Sidecarable
+  # ViewComponent::Preview.extend ViewComponentContrib::Preview::Sidecarable
   # ViewComponent::Preview.extend ViewComponentContrib::Preview::Abstract
 end
