@@ -20,6 +20,7 @@ gem 'sprockets-rails'
 gem 'stimulus-rails', '>= 1.2.2'
 gem 'tailwindcss-rails'
 gem 'turbo-rails'
+gem 'view_component'
 
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
