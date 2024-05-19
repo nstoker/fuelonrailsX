@@ -2,8 +2,15 @@
 
 # This file is copied to spec/ when you run 'rails generate rspec:install'
 require 'spec_helper'
+require 'devise'
+# require 'support/controller_macros'
 ENV['RAILS_ENV'] ||= 'test'
+require 'view_component/test_helpers'
+require 'view_component/system_test_helpers'
+require 'capybara/rspec'
+
 require_relative '../config/environment'
+
 # Prevent database truncation if the environment is production
 abort('The Rails environment is running in production mode!') if Rails.env.production?
 
@@ -23,7 +30,7 @@ require 'rspec/rails'
 # directory. Alternatively, in the individual `*_spec.rb` files, manually
 # require only the support files necessary.
 #
-# Dir[Rails.root.join('spec', 'support', '**', '*.rb')].sort.each { |f| require f }
+Dir[Rails.root.join('spec/support/**/*.rb')].each { |f| require f }
 
 # Checks for pending migrations and applies them before tests are run.
 # If you are not using ActiveRecord, you can remove these lines.
@@ -39,7 +46,7 @@ RSpec.configure do |config|
   # If you're not using ActiveRecord, or you'd prefer not to run each of your
   # examples within a transaction, remove the following line or assign false
   # instead of true.
-  config.use_transactional_fixtures = true
+  config.use_transactional_fixtures = false
 
   # You can uncomment this line to turn off ActiveRecord support entirely.
   # config.use_active_record = false
@@ -63,4 +70,15 @@ RSpec.configure do |config|
   config.filter_rails_from_backtrace!
   # arbitrary gems may also be filtered via:
   # config.filter_gems_from_backtrace("gem name")
+
+  # From https://yuta-san.medium.com/a-simple-login-test-with-rspec-devise-factorybot-in-rails-29aeb2ebc4ab
+  config.expect_with :rspec do |c|
+    c.syntax = :expect
+  end
+
+  config.include Capybara::RSpecMatchers, type: :component
+  config.include Devise::Test::ControllerHelpers, type: :controller
+  config.include ViewComponent::TestHelpers, type: :view_component
+  config.include ViewComponent::SystemTestCase, type: :view_component
+  config.include Warden::Test::Helpers
 end
