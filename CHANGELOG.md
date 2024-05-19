@@ -19,14 +19,14 @@ TODO:
 - Using credentials
 
 - Working on menu bar
-  - Not seeing dropdown (is it a stimulus thing?)
+  - Not seeing dropdown (is it a stimulus thing?) ***
   - Want the user face things!
   - User's name
+  - Devise views local with some editing, but not positioning where I want.
+
 - TODO:
   - Add login/out to header line
     - using https://flowbite.com/docs/components/navbar/
-  - Devise login etc on header
-  - Sort out rails g devise views
 
 ## v0.1.1 2023/10/14
 

@@ -16,7 +16,7 @@ require 'action_view/railtie'
 require 'action_cable/engine'
 # require "rails/test_unit/railtie"
 
-APP_VERSION = 'v0.1.1' unless defined? APP_VERSION
+APP_VERSION = 'v0.1.2' unless defined? APP_VERSION
 
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
@@ -38,5 +38,8 @@ module Fuelonrails
 
     # Don't generate system test files.
     config.generators.system_tests = nil
+
+    # To use component previews
+    config.view_component.preview_paths << Rails.root.join('spec/components/previews').to_s
   end
 end
