@@ -11,7 +11,7 @@ gem 'rails', '~> 7.1.3'
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem 'bcrypt', '~> 3.1.7'
 gem 'bootsnap', require: false
-gem 'devise', '~> 4.9', '>= 4.9.3'
+gem 'devise', '~> 5.0'
 gem 'importmap-rails', '>= 1.1.6'
 gem 'jbuilder'
 gem 'pg', '~> 1.1'
