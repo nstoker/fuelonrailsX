@@ -40,6 +40,6 @@ module Fuelonrails
     config.generators.system_tests = nil
 
     # To use component previews
-    config.view_component.preview_paths << Rails.root.join('spec/components/previews').to_s
+    # config.view_component.preview_paths << Rails.root.join('spec/components/previews').to_s
   end
 end

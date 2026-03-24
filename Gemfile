@@ -18,7 +18,7 @@ gem 'pg', '~> 1.1'
 gem 'puma', '~> 6.4'
 gem 'sprockets-rails'
 gem 'stimulus-rails', '>= 1.2.2'
-gem 'tailwindcss-rails'
+gem 'tailwindcss-rails', '~> 3.3.1'
 gem 'turbo-rails'
 gem 'view_component'
 
